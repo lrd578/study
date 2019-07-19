@@ -14,13 +14,13 @@ body {
 
 .main{width:100%;z-index: 99;position: fixed;top: 0;left: 0;display: block;}
 
-.main .logo{height: 70px;margin: 116px 0 122px;display: block;}
+.main .logo{height: 70px;margin: 58px 0 61px;display: block;}
 .main .logo img{width: 181px;height: 70px;display: block;margin: 0 auto;}
 
-.main .text{height:189px;margin: 0 auto 179px; display: block;padding: 0 50px;}
+.main .text{height:189px;margin: 0 auto 80px; display: block;padding: 0 50px;}
 .main .text p{font-size: 30;color: #fff;text-align: center;display: block;}
 
-.main .bottom{height:130px;display:block; margin: 0 auto ;overflow: hidden;}
+.main .bottom{height:130px;display:block; margin: 0 auto ;}
 .main .bottom img{display: block;width: 84px;height: 84px; margin: 0 auto;}
 
 .main .bottom .imgle{width: 50%;height: 130px;float: left;display: block;}
