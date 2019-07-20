@@ -1,0 +1,40 @@
+* {margin: 0;padding: 0;border: 0;}
+body{background-color: #fff;}
+
+.top {background-color: #5fc0cd;height: 100px;width: 100%;display: block;position: fixed;z-index: 999;}
+.top p {font-size: 32px;color: #fff;}
+.top .left {width: 18%;height: 62px; text-align: left;padding:38px 0 0 31px;float: left;display: block;}
+.top .center {width: 55%;height: 62px; text-align: center;padding: 38px 0 0;display: block;float: left;}
+
+.main {width: 100%;height: 1080px;display: block;}
+
+.main .hp{width: 100%;height: 40%;display: block;background-image: url("../img/bjimg.png");background-repeat: no-repeat;background-size: 100%;
+          padding: 100px 0 0;}
+.main .hp .portait{width: 15%;height: 50%;display: block;padding: 79px 40px 79px 30px;float: left;}
+.main .hp .portait img{float: left;}
+
+.main .hp .ifmt{width: 50%;height: 25%;display: block;float: left;padding: 117px 0 0 50px;}
+.main .hp .ifmt h1 {font-size: 2em;color: #FFF;margin-left: 10px;margin-bottom: 25px;letter-spacing: 2px;}
+.main .hp .ifmt h2 {font-size: 1.5em;color: #FFF;margin-left: 10px;letter-spacing: 2px;}
+.main .hp .ifmt h1 .separate{display: inline-block;width: 30px;}
+.main .hp .ifmt h2 .separate{display: inline-block;width: 15px;}
+
+.main .list{height: 603px;width: 100%;display: block;}
+.main .list h1 {font-size: 2em;color:black;display: inline-block;}
+.main .list h2 {font-size: 2em;color: #999999;letter-spacing: 2px;text-indent: 30px;display: inline-block;}
+.main .list h3 {font-size: 1.5em;color:black;font-weight: 400;text-indent: 30px;display: inline-block;}
+.main .list h4 {font-size: 2em;color:#e26163;display: inline-block;text-indent: 30px}
+
+.main .list .lo {height: 36px;width: 100%;border-bottom: 1px solid #e1e5e7;display: block;padding: 32px 0;}
+.main .list .lo .separate {width:30px;height: 26px;display: inline-block; border-right: 3px solid #5fc0cd;}
+.main .list .lo .separate1 {width:40px;display: inline-block;}
+
+.main .list ul {display: block;width: 100%;}
+.main .list li {width: 95%;border-bottom: 1px solid #e1e5e7;display:flex;margin-left:5%;padding: 30px 0;align-items: center;}
+.main .list li .separte {width: 20px ;height: 26px;display: inline-block;border-right:1px solid #5fc0cd;}
+.main .list li .separte1 {width: 17px;height: 30px;display: inline-block;}
+
+.main .bottom{width: 100%;height: 15%; display: block;position: fixed;z-index: 999;}
+.main .bottom .buttom {width: 40%;height: 70%;margin: 98px 37px;border: 2px solid #5fc0cd;text-align: center; border-radius:20px}
+.main .bottom .buttom h1{font-size: 34px;color: #5fc0cd;margin: auto;display: block;}
+.main .bottom .buttom h2{font-size: 34px;color: #FFF;}
